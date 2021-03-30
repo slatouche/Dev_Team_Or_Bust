@@ -27,4 +27,6 @@
     - ☑ Manually add some placeholder data to SqlServer TestModel DB
     - ☑ Swap mock repo for implementation using DBContext
     - ☑ Able to load data from Sql Server DB using postman
+    - ☐ Setup DTO's
+    - ☐ Add CRUD operations to/from DB
     - ☐ More TBA
