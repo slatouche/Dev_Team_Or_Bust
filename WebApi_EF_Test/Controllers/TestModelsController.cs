@@ -11,12 +11,18 @@ namespace WebApi_EF_Test.Controllers
     [ApiController]
     public class TestModelsController : ControllerBase
     {
-        private readonly MockTestRepo _repository = new MockTestRepo();
+        private readonly ITestRepo _repo;
+        public TestModelsController(ITestRepo inRepo)
+        {
+            _repo = inRepo;
+        }
+        
+        //private readonly MockTestRepo _repo = new MockTestRepo();
         // GET api/TestModels
         [HttpGet]
         public ActionResult <IEnumerable<TestModel>> GetAllTestModels()
         {
-            var testModelList = _repository.GetAllTestModels();
+            var testModelList = _repo.GetAllTestModels();
             return Ok(testModelList);
         }
 
@@ -24,7 +30,7 @@ namespace WebApi_EF_Test.Controllers
         [HttpGet("{id}")]
         public ActionResult <TestModel> GetTestModelByID(int inID)
         {
-            var testModel = _repository.GetTestModelByID(inID);
+            var testModel = _repo.GetTestModelByID(inID);
             return Ok(testModel);
         }
     }

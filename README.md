@@ -16,4 +16,8 @@
         --- Current API End Points
         - (GET) http://localhost:5000/api/TestModels         -> GetAllTestModels
         - (GET) http://localhost:5000/api/TestModels/{id}    -> GetTestModelByID
+    - ☐ Setup dependency injection to be able to swap repo used in controller
+        - Add scoped mapping to Startup.ConfigureServices
+        - Add contructor to controller to be able to inject dependency
+    - ☐ 
     - ☐ More TBA
