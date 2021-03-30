@@ -26,4 +26,5 @@
     - ☑ Run EF Migrations to setup TestModel DB in SqlServer
     - ☑ Manually add some placeholder data to SqlServer TestModel DB
     - ☑ Swap mock repo for implementation using DBContext
+    - ☑ Able to load data from Sql Server DB using postman
     - ☐ More TBA
