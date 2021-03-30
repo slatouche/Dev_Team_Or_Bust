@@ -27,7 +27,7 @@ namespace WebApi_EF_Test.Controllers
         }
 
         // GET api/TestModels/{id}
-        [HttpGet("{id}")]
+        [HttpGet("{inID}")]
         public ActionResult <TestModel> GetTestModelByID(int inID)
         {
             var testModel = _repo.GetTestModelByID(inID);

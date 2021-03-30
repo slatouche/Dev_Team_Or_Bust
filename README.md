@@ -19,5 +19,11 @@
     - ☑ Setup dependency injection to be able to swap repo used in controller
         - Add scoped mapping to Startup.ConfigureServices
         - Add contructor to controller to be able to inject dependency
-    - ☐ Setup DBContext data access to get EF connection to DB
+    - ☑ Setup DBContext data access to get EF connection to DB
+        - DBContext = TestDBContext
+        - Connection String = DBConnection (in appsettings.json)
+        - ConfigureServices services.AddDbContext with opt.UseSqlServer
+    - ☑ Run EF Migrations to setup TestModel DB in SqlServer
+    - ☑ Manually add some placeholder data to SqlServer TestModel DB
+    - ☑ Swap mock repo for implementation using DBContext
     - ☐ More TBA
