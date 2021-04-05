@@ -39,3 +39,18 @@
         - Add to Repo Implementation
     - ☑ Test EF WebAPI project with CRUD working
 - Demo Project With Both EF WebAPI and React
+    - Dotnet sln
+        - API (webapi)
+        - Application (classlib)
+        - Domain (classlib)
+        - Persistence (classlib)
+    - Add proj references
+        - API
+            - Application
+        - Application
+            - Domain
+            - Persistence
+        - Persistence
+            - Domain
+    
+    
