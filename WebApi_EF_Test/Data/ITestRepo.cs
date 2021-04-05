@@ -10,5 +10,6 @@ namespace WebApi_EF_Test.Data
         TestModel GetTestModelByID(int inID);
         void CreateTestModel(TestModel inTestModel);
         void UpdateTestModel(TestModel inTestModel);
+        void DeleteTestModel(TestModel inTestModel);
     }
 }

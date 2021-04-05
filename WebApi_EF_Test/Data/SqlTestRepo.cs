@@ -25,6 +25,16 @@ namespace WebApi_EF_Test.Data
             _context.TestModels.Add(inTestModel);
         }
 
+        public void DeleteTestModel(TestModel inTestModel)
+        {
+            if(inTestModel == null)
+            {
+                throw new ArgumentNullException(nameof(inTestModel));
+            }
+
+            _context.TestModels.Remove(inTestModel);
+        }
+
         public IEnumerable<TestModel> GetAllTestModels()
         {
             return _context.TestModels.ToList();

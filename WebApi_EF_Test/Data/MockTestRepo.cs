@@ -10,6 +10,11 @@ namespace WebApi_EF_Test.Data
             throw new System.NotImplementedException();
         }
 
+        public void DeleteTestModel(TestModel inTestModel)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public IEnumerable<TestModel> GetAllTestModels()
         {
             var testModels = new List<TestModel>

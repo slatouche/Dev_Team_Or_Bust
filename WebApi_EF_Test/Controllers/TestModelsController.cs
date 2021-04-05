@@ -76,5 +76,21 @@ namespace WebApi_EF_Test.Controllers
 
             return NoContent();
         }
+
+        // DELETE api/TestModels/{id}
+        [HttpDelete("{inID}")]
+        public ActionResult DeleteTestModel(int inID)
+        {
+            var testModelFromRepo = _repo.GetTestModelByID(inID);
+            if(testModelFromRepo == null)
+            {
+                return NotFound();
+            }
+
+            _repo.DeleteTestModel(testModelFromRepo);
+            _repo.SaveChanges();
+
+            return NoContent();
+        }
     }
 }
