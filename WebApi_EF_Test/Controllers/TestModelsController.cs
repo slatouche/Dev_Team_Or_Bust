@@ -32,7 +32,7 @@ namespace WebApi_EF_Test.Controllers
         }
 
         // GET api/TestModels/{id}
-        [HttpGet("{inID}")]
+        [HttpGet("{inID}", Name="GetTestModelByID")]
         public ActionResult<TestModelReadDTO> GetTestModelByID(int inID)
         {
             var testModel = _repo.GetTestModelByID(inID);
@@ -53,7 +53,9 @@ namespace WebApi_EF_Test.Controllers
             _repo.CreateTestModel(testModel);
             _repo.SaveChanges();
 
-            return Ok(testModel);
+            var testModelReadDTO = _mapper.Map<TestModelReadDTO>(testModel);
+
+            return CreatedAtRoute(nameof(GetTestModelByID), new {inID = testModelReadDTO.Id}, testModelReadDTO);
         }
     }
 }
