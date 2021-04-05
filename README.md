@@ -11,7 +11,7 @@
 <br>
 
 - ☐ Demo Project With Both EF WebAPI and React
-    - ☐ API Skeleton
+    - ☑ API Skeleton
         - ☑ Dotnet sln
             - API (webapi)
             - Application (classlib)
@@ -40,8 +40,8 @@
         - ☑ Add Controllers
             - Base API Controller
             - Activities Controller + Routes
-                - Get Activities
-                - Get Activity By Guid
+                - Get Activities        -> {{url}}/api/activities/
+                - Get Activity By Guid  -> {{url}}/api/activities/{id}
     - ☐ Client Skeleton
         - TBA
     - ☐ Add CQRS
