@@ -46,7 +46,7 @@
     - ☐ Client Skeleton
         - ☑ Create react app
             - npx create-react-app client-app --use-npm --template typescript
-        - React proj files
+        - React proj setup
         - React Dev tools
         - Typescript
         - Axios
