@@ -5,7 +5,7 @@
 - Follow CQRS pattern
 
 --- Current Tasks
-- Get an Entity Framework test project working using Web API
+- ☑ Get an Entity Framework test project working using Web API
     - ☑ Setup using "webapi" dotnet template  (dotnet new webapi -n WebApi_EF_Test)
     - ☑ Setup basic SQL Server (using SQL Server Express)
     - ☑ Create test model
@@ -38,19 +38,29 @@
         - Add CRUD + SaveChanges to Interface
         - Add to Repo Implementation
     - ☑ Test EF WebAPI project with CRUD working
-- Demo Project With Both EF WebAPI and React
-    - Dotnet sln
-        - API (webapi)
-        - Application (classlib)
-        - Domain (classlib)
-        - Persistence (classlib)
-    - Add proj references
-        - API
+- ☐ Demo Project With Both EF WebAPI and React
+    - ☐ API Skeleton
+        - ☑ Dotnet sln
+            - API (webapi)
+            - Application (classlib)
+            - Domain (classlib)
+            - Persistence (classlib)
+        - ☑ Add proj references
+            - API
+                - Application
             - Application
-        - Application
-            - Domain
+                - Domain
+                - Persistence
             - Persistence
-        - Persistence
-            - Domain
-    
-    
+                - Domain
+        - Create Domain Entity
+            - Activity
+        - Add EF DbContext 
+            - DataContext in Persistence
+            - Activity DbSet
+            - Sqlite Connection in Startup
+            - Connection String in appsettings
+    - ☐ Client Skeleton
+        - TBA
+    - ☐ Add CQRS
+        - TBA
