@@ -5,6 +5,11 @@ namespace WebApi_EF_Test.Data
 {
     public class MockTestRepo : ITestRepo
     {
+        public void CreateTestModel(TestModel inTestModel)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public IEnumerable<TestModel> GetAllTestModels()
         {
             var testModels = new List<TestModel>
@@ -22,6 +27,11 @@ namespace WebApi_EF_Test.Data
         public TestModel GetTestModelByID(int inID)
         {
             return new TestModel{Id=0, TestString="Test String 0", TestOtherString="Other Test String 0", TestInt=100};
+        }
+
+        public bool SaveChanges()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

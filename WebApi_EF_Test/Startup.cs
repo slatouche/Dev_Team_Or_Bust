@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using WebApi_EF_Test.Data;
+using AutoMapper;
 
 namespace WebApi_EF_Test
 {
@@ -31,6 +32,8 @@ namespace WebApi_EF_Test
                 (Configuration.GetConnectionString("DBConnection")));
 
             services.AddControllers();
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             //services.AddScoped<ITestRepo, MockTestRepo>();
             services.AddScoped<ITestRepo, SqlTestRepo>();

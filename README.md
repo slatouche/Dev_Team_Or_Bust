@@ -27,6 +27,11 @@
     - ☑ Manually add some placeholder data to SqlServer TestModel DB
     - ☑ Swap mock repo for implementation using DBContext
     - ☑ Able to load data from Sql Server DB using postman
-    - ☐ Setup DTO's
-    - ☐ Add CRUD operations to/from DB
+    - ☐ Setup DTO's with AutoMapper for CRUD operations to/from DB
+        - Add AutoMapper Service to startup
+        - DTO for CRUD (DTO also to not return TestInt)
+        - Mapper Profile for DTO
+        - Implement DTOs in controller
+        - Add CRUD + SaveChanges to Interface
+        - Add to Repo Implementation
     - ☐ More TBA

@@ -10,11 +10,11 @@
         "projectUniqueName": "D:\\MyRepos\\Dev_Team_Or_Bust\\WebApi_EF_Test\\WebApi_EF_Test.csproj",
         "projectName": "WebApi_EF_Test",
         "projectPath": "D:\\MyRepos\\Dev_Team_Or_Bust\\WebApi_EF_Test\\WebApi_EF_Test.csproj",
-        "packagesPath": "C:\\Users\\Seb\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Sebastien\\.nuget\\packages\\",
         "outputPath": "D:\\MyRepos\\Dev_Team_Or_Bust\\WebApi_EF_Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Seb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Sebastien\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,7 +36,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.4, )"
@@ -47,6 +53,12 @@
               "version": "[5.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.4, )"
             }
@@ -69,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
