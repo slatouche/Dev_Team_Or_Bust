@@ -65,8 +65,11 @@
         - Seed data for Sqlite DB
             - Create seed data (./Persistence/Seed.cs)
             - Load Seed Data, Migration + Run async
-
-        - 
+        - Add Controllers
+            - Base API Controller
+            - Activities Controller
+                - Get Activities
+                - Get Activity By Guid
     - ☐ Client Skeleton
         - TBA
     - ☐ Add CQRS
