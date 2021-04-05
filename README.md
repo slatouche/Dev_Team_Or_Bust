@@ -44,6 +44,12 @@
                 - Get Activities        -> {{url}}/api/activities/
                 - Get Activity By Guid  -> {{url}}/api/activities/{id}
     - ☐ Client Skeleton
-        - TBA
+        - ☑ Create react app
+            - npx create-react-app client-app --use-npm --template typescript
+        - React proj files
+        - React Dev tools
+        - Typescript
+        - Axios
+        - Semantic-ui
     - ☐ Add CQRS
         - TBA
