@@ -8,7 +8,7 @@
 - ☑ Get an Entity Framework test project working using Web API
     - /WebApi_EF_Test/README.md for more info
 
-
+<br>
 
 - ☐ Demo Project With Both EF WebAPI and React
     - ☐ API Skeleton
