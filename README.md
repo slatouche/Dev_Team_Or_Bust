@@ -8,6 +8,8 @@
 - ☑ Get an Entity Framework test project working using Web API
     - /WebApi_EF_Test/README.md for more info
 
+
+
 - ☐ Demo Project With Both EF WebAPI and React
     - ☐ API Skeleton
         - ☑ Dotnet sln
@@ -23,19 +25,19 @@
                 - Persistence
             - Persistence
                 - Domain
-        - Create Domain Entity
+        - ☑ Create Domain Entity
             - Activity
-        - Add EF DbContext 
+        - ☑ Add EF DbContext 
             - DataContext in Persistence
             - Activity DbSet
             - Sqlite Connection in Startup
             - Connection String in appsettings
-        - EF Initial Migration + DB Setup
+        - ☑ EF Initial Migration + DB Setup
             - Make Program.cs try run migration before host Run
-        - Seed data for Sqlite DB
+        - ☑ Seed data for Sqlite DB
             - Create seed data (./Persistence/Seed.cs)
             - Load Seed Data, Migration + Run async
-        - Add Controllers
+        - ☑ Add Controllers
             - Base API Controller
             - Activities Controller + Routes
                 - Get Activities
