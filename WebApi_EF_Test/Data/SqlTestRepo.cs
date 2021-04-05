@@ -39,5 +39,10 @@ namespace WebApi_EF_Test.Data
         {
             return(_context.SaveChanges() >= 0);
         }
+
+        public void UpdateTestModel(TestModel inTestModel)
+        {
+            //Nothing
+        }
     }
 }

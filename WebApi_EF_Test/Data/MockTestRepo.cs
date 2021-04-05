@@ -33,5 +33,10 @@ namespace WebApi_EF_Test.Data
         {
             throw new System.NotImplementedException();
         }
+
+        public void UpdateTestModel(TestModel inTestModel)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

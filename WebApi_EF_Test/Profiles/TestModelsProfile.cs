@@ -11,6 +11,7 @@ namespace WebApi_EF_Test.Profiles
             // Source -> Target
             CreateMap<TestModel, TestModelReadDTO>();
             CreateMap<TestModelCreateDTO, TestModel>();
+            CreateMap<TestModelUpdateDTO, TestModel>();
         }
     }
 }

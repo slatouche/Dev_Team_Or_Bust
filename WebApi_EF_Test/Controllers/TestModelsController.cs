@@ -57,5 +57,24 @@ namespace WebApi_EF_Test.Controllers
 
             return CreatedAtRoute(nameof(GetTestModelByID), new {inID = testModelReadDTO.Id}, testModelReadDTO);
         }
+
+        // PUT api/TestModels/{id}
+        [HttpPut("{inID}")]
+        public ActionResult UpdateTestModel(int inID, TestModelUpdateDTO testModelUpdateDTO)
+        {
+            var testModelFromRepo = _repo.GetTestModelByID(inID);
+            if(testModelFromRepo == null)
+            {
+                return NotFound();
+            }
+
+            _mapper.Map(testModelUpdateDTO, testModelFromRepo);
+
+            _repo.UpdateTestModel(testModelFromRepo);
+
+            _repo.SaveChanges();
+
+            return NoContent();
+        }
     }
 }

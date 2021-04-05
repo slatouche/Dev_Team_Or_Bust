@@ -9,5 +9,6 @@ namespace WebApi_EF_Test.Data
         IEnumerable<TestModel> GetAllTestModels();
         TestModel GetTestModelByID(int inID);
         void CreateTestModel(TestModel inTestModel);
+        void UpdateTestModel(TestModel inTestModel);
     }
 }
