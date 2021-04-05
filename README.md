@@ -33,6 +33,7 @@
             - Sqlite Connection in Startup
             - Connection String in appsettings
         - ☑ EF Initial Migration + DB Setup
+            - Code First migration
             - Make Program.cs try run migration before host Run
         - ☑ Seed data for Sqlite DB
             - Create seed data (./Persistence/Seed.cs)
