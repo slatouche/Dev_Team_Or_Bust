@@ -60,6 +60,13 @@
             - Activity DbSet
             - Sqlite Connection in Startup
             - Connection String in appsettings
+        - EF Initial Migration + DB Setup
+            - Make Program.cs try run migration before host Run
+        - Seed data for Sqlite DB
+            - Create seed data (./Persistence/Seed.cs)
+            - Load Seed Data, Migration + Run async
+
+        - 
     - ☐ Client Skeleton
         - TBA
     - ☐ Add CQRS
