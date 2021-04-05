@@ -17,7 +17,7 @@
             - Application (classlib)
             - Domain (classlib)
             - Persistence (classlib)
-        - ☑ Add proj references
+        - ☑ Add proj dependency references
             - API
                 - Application
             - Application
