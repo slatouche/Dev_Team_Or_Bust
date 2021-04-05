@@ -5,7 +5,11 @@
 - Follow CQRS pattern
 
 --- Current Tasks
+<details>
+<summary>
 - ☑ Get an Entity Framework test project working using Web API
+</summary>
+<br>
     - ☑ Setup using "webapi" dotnet template  (dotnet new webapi -n WebApi_EF_Test)
     - ☑ Setup basic SQL Server (using SQL Server Express)
     - ☑ Create test model
@@ -38,6 +42,8 @@
         - Add CRUD + SaveChanges to Interface
         - Add to Repo Implementation
     - ☑ Test EF WebAPI project with CRUD working
+</details>
+
 - ☐ Demo Project With Both EF WebAPI and React
     - ☐ API Skeleton
         - ☑ Dotnet sln
@@ -67,7 +73,7 @@
             - Load Seed Data, Migration + Run async
         - Add Controllers
             - Base API Controller
-            - Activities Controller
+            - Activities Controller + Routes
                 - Get Activities
                 - Get Activity By Guid
     - ☐ Client Skeleton
