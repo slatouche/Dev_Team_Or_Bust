@@ -38,4 +38,4 @@
         - Add CRUD + SaveChanges to Interface
         - Add to Repo Implementation
     - ☑ Test EF WebAPI project with CRUD working
-- Test Project With Both EF WebAPI and React
+- Demo Project With Both EF WebAPI and React
