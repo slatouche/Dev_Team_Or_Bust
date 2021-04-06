@@ -53,5 +53,5 @@
             - Semantic-ui
         - ☑ App able to GET data from API
         - ☑ List activities from API with basic styling
-    - ☐ Add CQRS
+    - ☐ Add CRUD to App while using CQRS Pattern
         - TBA
