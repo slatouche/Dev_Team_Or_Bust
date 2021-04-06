@@ -43,13 +43,15 @@
             - Activities Controller + Routes
                 - Get Activities        -> {{url}}/api/activities/
                 - Get Activity By Guid  -> {{url}}/api/activities/{id}
-    - ☐ Client Skeleton
+    - ☑ Client Skeleton
         - ☑ Create react app
             - npx create-react-app client-app --use-npm --template typescript
-        - React proj setup
-        - React Dev tools
-        - Typescript
-        - Axios
-        - Semantic-ui
+        - ☑ React project setup and install
+            - React Dev tools
+            - Typescript
+            - Axios + CORS
+            - Semantic-ui
+        - ☑ App able to GET data from API
+        - ☑ List activities from API with basic styling
     - ☐ Add CQRS
         - TBA
