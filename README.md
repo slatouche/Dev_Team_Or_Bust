@@ -54,4 +54,6 @@
         - ☑ App able to GET data from API
         - ☑ List activities from API with basic styling
     - ☐ Add CRUD to App while using CQRS Pattern
+        - Install MediatR
+        - Create Query handler for GET Activites list
         - TBA
