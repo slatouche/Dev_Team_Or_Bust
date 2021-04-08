@@ -53,8 +53,11 @@
             - Semantic-ui
         - ☑ App able to GET data from API
         - ☑ List activities from API with basic styling
-    - ☐ Add CRUD to App while using CQRS Pattern
+    - ☑ Add CRUD Handlers to App using CQRS Pattern
         - Install MediatR
-        - Create Query handler for GET Activites list
-        - Create Query handler for GET Activity details
-        - TBA
+        - Create GET Query handler for Activites list       -> {{url}}/api/activities/
+        - Create GET Query handler for Activity details     -> {{url}}/api/activities/{id}
+        - Create POST Command handler for Create Activity   -> {{url}}/api/activities/
+        - Create PUT Command handler for Edit Activity      -> {{url}}/api/activities/{id}
+        - Create DELETE Command handler for Delete Activity -> {{url}}/api/activities/{id}
+    - ☐ TBA
