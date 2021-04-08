@@ -56,4 +56,5 @@
     - ☐ Add CRUD to App while using CQRS Pattern
         - Install MediatR
         - Create Query handler for GET Activites list
+        - Create Query handler for GET Activity details
         - TBA
