@@ -60,4 +60,5 @@
         - Create POST Command handler for Create Activity   -> {{url}}/api/activities/
         - Create PUT Command handler for Edit Activity      -> {{url}}/api/activities/{id}
         - Create DELETE Command handler for Delete Activity -> {{url}}/api/activities/{id}
-    - ☐ TBA
+    - ☐ CRUD in React App
+        - TBA
