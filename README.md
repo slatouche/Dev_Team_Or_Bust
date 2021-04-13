@@ -49,7 +49,7 @@
         - ☑ React project setup and install
             - React Dev tools
             - Typescript
-            - Axios + CORS
+            - Axios + CORS (HTTP client)
             - Semantic-ui
         - ☑ App able to GET data from API
         - ☑ List activities from API with basic styling
@@ -61,9 +61,11 @@
         - Create PUT Command handler for Edit Activity      -> {{url}}/api/activities/{id}
         - Create DELETE Command handler for Delete Activity -> {{url}}/api/activities/{id}
     - ☐ CRUD in React App
-        - Fix folder structure
-        - UI
-            - Navbar
+        - ☑ Fix folder structure
+        - ☑ Activity interface for App
+        - ☐ UI
+            - Navbar + styling
+            - Add Assets
             - Activity Dashboard
             - Activity List
             - Details View
