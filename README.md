@@ -61,4 +61,11 @@
         - Create PUT Command handler for Edit Activity      -> {{url}}/api/activities/{id}
         - Create DELETE Command handler for Delete Activity -> {{url}}/api/activities/{id}
     - ☐ CRUD in React App
+        - Fix folder structure
+        - UI
+            - Navbar
+            - Activity Dashboard
+            - Activity List
+            - Details View
+            - Create/Edit Form
         - TBA
