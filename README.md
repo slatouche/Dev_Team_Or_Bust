@@ -60,17 +60,21 @@
         - Create POST Command handler for Create Activity   -> {{url}}/api/activities/
         - Create PUT Command handler for Edit Activity      -> {{url}}/api/activities/{id}
         - Create DELETE Command handler for Delete Activity -> {{url}}/api/activities/{id}
-    - ☐ CRUD in React App
+    - ☑ CRUD in React App
         - ☑ Fix folder structure
         - ☑ Activity interface for App
-        - ☐ UI
+        - ☑ UI
             - Navbar + styling
             - Add Assets
             - Activity Dashboard
             - Activity List
             - Details View
             - Create/Edit Form
-        - UI Functionality
+            - Delete Activity
+        - ☑ UI Functionality
             - Selected activity changes detail view
             - Display Create/Edit form based on buttons clicked
             - Form Details based on Create/Edit clicked
+            - Form Submit
+            - Delete Activity
+    - ☐ Persist Client CRUD To API 
