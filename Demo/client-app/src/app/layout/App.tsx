@@ -8,7 +8,6 @@ import { v4 as uuid } from 'uuid';
 
 function App() {
 
-  //States
   const [activities, setActivities] = useState<Activity[]>([]);
   const [selectedActivity, setSelectedActivity] = useState<Activity | undefined>(undefined);
   const [editMode, setEditMode] = useState(false);
@@ -45,6 +44,10 @@ function App() {
     setSelectedActivity(activity);
   }
 
+  function handleDeleteActivity(id: string) {
+    setActivities([...activities.filter(x => x.id !== id)]);
+  }
+
   return (
     <>
       <NavBar openForm={handleFormOpen} />
@@ -58,6 +61,7 @@ function App() {
             openForm={handleFormOpen}
             closeForm={handleFormClose}
             createOrEdit={handleCreateOrEditActivity}
+            deleteActivity={handleDeleteActivity}
           />
         </Container>
     </>
