@@ -7,6 +7,7 @@
 --- Tasks
 - ☑ Get an Entity Framework test project working using Web API
     - /WebApi_EF_Test/README.md for more info
+- ☑ Make Demo Project With Both EF WebAPI and React
 
 <br>
 
