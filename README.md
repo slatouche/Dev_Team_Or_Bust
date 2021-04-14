@@ -10,7 +10,7 @@
 
 <br>
 
-- ☐ Demo Project With Both EF WebAPI and React
+- ☑ Demo Project With Both EF WebAPI and React
     - ☑ API Skeleton
         - ☑ Dotnet sln
             - API (webapi)
@@ -77,4 +77,17 @@
             - Form Details based on Create/Edit clicked
             - Form Submit
             - Delete Activity
-    - ☐ Persist Client CRUD To API 
+    - ☑ Persist Client CRUD To API using Axios
+        - Create agent file to hold requests to API
+        - Add type safety to agent
+        - Get Activities List API Request
+        - POST Create API Request
+        - PUT Edit API Request
+        - Delete API Request
+        - Loading indicator
+
+<br>
+
+- Things To Be Added Later
+    - ☐ Centralised State Management For Client App
+    - TBA
