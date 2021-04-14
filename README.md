@@ -70,4 +70,7 @@
             - Activity List
             - Details View
             - Create/Edit Form
-        - TBA
+        - UI Functionality
+            - Selected activity changes detail view
+            - Display Create/Edit form based on buttons clicked
+            - Form Details based on Create/Edit clicked
